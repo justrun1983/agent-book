@@ -1,0 +1,24 @@
+# Editing and OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Local environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# Backups and dumps
+*.bak
+*.bak.*
+*.orig
+*.log
+
+# Local tooling
+node_modules/
+.venv/
+.vscode/
+.idea/
